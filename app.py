@@ -4,6 +4,7 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 import os
 import logging
+from flask_limiter import Limiter  # For rate limiting
 
 # Initialize Flask application
 app = Flask(__name__)
